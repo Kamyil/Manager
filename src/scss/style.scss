@@ -1,0 +1,239 @@
+
+$w1: "img/w1.jpg";
+$w2: 'img/w2.jpg';
+$w3: 'img/w3.jpg';
+$w4: 'img/w4.jpg';
+$w5: 'img/w5.jpg';
+$w6: 'img/w6.jpg';
+$w7: 'img/w7.jpg';
+$w8: 'img/w8.jpg';
+$w9: 'img/w9.jpg';
+$bluelight_backdrop_color: rgb(6,215,254);
+$blue_backdrop_color: rgb(7,54,74);
+$yellow_backdrop_color: rgb(226,229,26);
+$blue_hover_color: rgb(7,54,74);
+$hover_light_color: rgba(255,255,255,0.9);
+$hover_dark_color: rgba(255,255,255,0.9);
+$complete_color: rgba(10,230,10,0.85);
+
+
+body{
+font-family: 'Roboto', sans-serif !important;
+width: 100%;
+background-image: url($w1);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: #202020;
+font-size: 24px;
+}
+nav{
+width: 100%;
+padding-bottom: 1vh;
+color: #fff;
+text-align: center;
+background-color: rgba(7,54,74,0.94);
+position: sticky;
+top: 0;
+}
+ul{
+list-style-type: none;
+}
+
+
+
+
+.brand img{
+width: 3%;
+float: left;
+margin-left: 5%;
+margin-top: 1.2%;
+}
+.brand h1{
+font-weight: 700;
+font-style: italic;
+
+margin-left: 5%;
+}
+#days_section{
+margin-top: 1vh;
+overflow-y: auto;
+}
+/*.day{
+background-color: $blue_backdrop_color;
+height: 4vh;
+
+font-weight: 400;
+text-align: center;
+margin-top: 5%;
+color: #f1f1f1;
+font-size: 2vh;
+vertical-align: center;
+font-weight: 500;
+padding-top: 1%;
+}
+.day:hover{
+cursor: pointer;
+background-color: $bluelight_backdrop_color;
+color: $blue_backdrop_color;
+transition-duration: 0.1s;
+border-left: 5px solid $blue_backdrop_color;
+left: 2%;
+} */
+.day:nth-child(1)::after{
+content:"Dziś";
+color: $blue_backdrop_color;
+margin-left: 10%;
+font-weight: 700;
+}
+.day:nth-child(2)::after{
+content:"Jutro";
+color: $blue_backdrop_color;
+margin-left: 10%;
+font-weight: 700;
+}
+.day:nth-child(3)::after{
+content:"Pojutrze";
+color: $blue_backdrop_color;
+margin-left: 10%;
+font-weight: 700;
+}
+#next_week_button{
+	position:relative;
+	border: none;
+	color: white;
+	font-weight: 500;
+	font-size: 1.2rem;
+	left:50%;
+	margin: -20px -70px; 
+	background-color: transparent;
+	outline: none;
+}
+#next_week_button:hover{
+	color: $bluelight_backdrop_color;
+	cursor: pointer;
+	transition-duration: 0.1s;
+}
+#next_week_button:active{
+	transform: scale(0.9);
+	transition-duration: 0.1s;
+}
+
+#tasks_section{
+background-color: rgba(255,255,255,0.92);
+height: 100vh;
+
+
+}
+#list-settings{
+
+}
+#lists_section{
+margin-top: 3vh;
+}
+.list{
+background-color: $blue_backdrop_color;
+height: 4vh;
+
+font-weight: 400;
+text-align: center;
+margin-top: 5%;
+color: #f1f1f1;
+font-size: 2vh;
+vertical-align: center;
+font-weight: 500;
+padding-top: 1%;
+
+
+}
+.list:hover{
+cursor: pointer;
+background-color: $bluelight_backdrop_color;
+color: $blue_backdrop_color;
+transition-duration: 0.1s;
+border-left: 5px solid $blue_backdrop_color;
+left: 2%;
+
+}
+.list_controls{
+	float: right;
+	letter-spacing: -2px;
+	position: relative;
+	left: 13%;
+	bottom: 45%;
+	border: none;
+
+	background-color: transparent;
+	color: $blue_backdrop_color;
+	font-size: 2rem;
+	outline: none;
+}
+.list_controls:hover{
+	cursor: pointer;
+	color: $bluelight_backdrop_color;
+	transform: scale(1.1);
+	transition-duration: 0.1s;
+}
+.list_controls:focus{
+	outline: none;
+
+color: white;
+padding: 1%;
+}
+.days_and_lists_section_title h2{
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 3px;
+}
+#add_list{
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-weight: 700;
+
+}
+#add_list:hover{
+	transform: scale(1.1);
+	transition-duration: 0.1s;
+	cursor: pointer;
+}
+.section_title h2{
+color: $blue_backdrop_color;
+padding: 1%;
+text-align: center;
+font-size: 2rem;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 3px;
+}
+
+.to-do-task{
+	margin-top: 1vh;
+	font-weight: 500;
+}
+
+form{
+	margin-top: 1vh;
+}
+header{
+	color: white;
+	
+	padding: 2vh;
+	border-radius: 5px;
+   
+
+
+
+}
+header h1{
+	
+}
+.blue-purple{
+	background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
