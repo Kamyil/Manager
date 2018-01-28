@@ -1,0 +1,19 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "Simple Task Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamyil/Manager.git"
+  },
+  "author": "Kamil \"Kamyil\" Bugajak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kamyil/Manager/issues"
+  },
+  "homepage": "https://github.com/Kamyil/Manager#readme"
+}

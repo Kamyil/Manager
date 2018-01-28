@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+             
+    <title>Manager</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<body>
+      <h1>That's your tasklist to do today!</h1>
+    <nav>
+   
+
+    </nav>
+ 
+
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+    </ul>
+
+
+
+
+
+
+
+    <form action="">
+        <input type="text" name="task" id="task-input"
+        placeholder="Type task here">
+    </form>
+        <button class="add-task">+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--  <script>
+    const electron = require('electron');
+    const {ipcRenderer} = electron;
+    let ul = document.querySelector('ul');
+
+//Add task
+    ipcRenderer.on('item:add',function(e,item){
+
+        let li = document.createElement('li');
+        let item_text = document.createTextNode(item);
+        li.appendChild(item_text);
+        ul.appendChild(li);
+    });
+
+
+
+//Remove single task
+
+ul.addEventListener('dblclick',removeItem);
+function removeItem(e){
+e.target.remove();
+}
+
+    </script>
+-->
+    <script src="js/add-task.js"></script>
+<script src="js/sort.js"></script>
+</body>
+</html>

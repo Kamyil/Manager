@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ 
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/doodles.png');
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+nav{
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 7%;
+    position: fixed;
+
+    -webkit-box-shadow: 10px 0px 37px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 0px 37px -9px rgba(0,0,0,0.75);
+    box-shadow: 10px 0px 37px -9px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 5vh;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+ul{
+    position: relative;
+    top: 5vh;
+}
+li{
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 2%;
+    font-weight: 700;
+    padding: 2vh;
+   
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+}
+
+input{
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    right: 50%;
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+   
+    background-color: white;
+    width: 40%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+    font-weight: 700;
+    padding: 2vh;
+   border: none;
+
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+.add-task{
+    width: 7vh;
+    height: 7vh;
+    font-size: 5vh;
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+border: none;
+color: cornflowerblue;
+border-radius: 50%;
+background-color: white;
+position: fixed;
+  bottom: 2.8vh;
+  right: 23%;
+  outline: none;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+
+
+
+
+
+
+
+.add-task:hover{
+cursor: pointer;
+transform: scale(1.1);
+transition-duration: 0.5s;
+
+}
+.add-task:active{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition-duration: 0.25s;
+    
+    }
+    
